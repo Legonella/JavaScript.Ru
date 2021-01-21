@@ -22,3 +22,18 @@ if (a > b) {
     console.log('nothing');
 }
 
+// Comparison of different types
+
+alert('2' > 1); // true, string '2' becomes a number 2
+alert('01' == 1); // true, string '01' becomes a number 1
+
+alert(true == 1); // true
+alert(false == 0); // true
+
+let c = 0;
+alert(Boolean(c)); // false
+
+let d = '0';
+alert(Boolean(d)); // true
+
+alert(c == d); // true!
